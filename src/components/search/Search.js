@@ -36,7 +36,7 @@ class Search extends Component {
                       console.log(err);
                   })
             : this.setState({ showArtistList: false });
-    }, 2500);
+    }, 500);
 
     /**
      * fetch albums of given artist handles input change
