@@ -1,0 +1,88 @@
+.album {
+    .album-detail-container {
+        position: relative;
+        width: 80vw;
+        margin-top: 10%;
+
+        .album-detail-image {
+            float: left;
+            width: 20%;
+            padding-top: 3%;
+            padding-left: 3%;
+        }
+
+        .album-detail-texts {
+            height: 80%;
+            padding-top: 4%;
+
+            .album-detail-title {
+                color: #01ffff;
+                padding-left: 23%;
+            }
+
+            .album-detail-tracks-container {
+                background-color: #505050;
+                min-height: 225px;
+                margin-top: 1%;
+
+                table {
+                    padding-bottom: 1%;
+                    width: 77%;
+                    th {
+                        color: #ffffff;
+                        text-align: left;
+                        font-weight: bold;
+                        text-align: left;
+                    }
+                    .index {
+                        width: 5%;
+                    }
+                    .title {
+                        width: 35%;
+                    }
+                    .artist {
+                        width: 30%;
+                    }
+                    td {
+                        color: #ffffff;
+                        text-align: left;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;
+                    }
+
+                    .release-date {
+                        padding-left: 1%;
+                    }
+                }
+                border-bottom-color: black;
+            }
+        }
+    }
+
+    &:nth-child(5n + 1) {
+        .album-detail-container {
+            margin-left: 20%;
+        }
+    }
+    &:nth-child(5n + 2) {
+        .album-detail-container {
+            margin-left: -90%;
+        }
+    }
+    &:nth-child(5n + 3) {
+        .album-detail-container {
+            margin-left: -200%;
+        }
+    }
+    &:nth-child(5n + 4) {
+        .album-detail-container {
+            margin-left: -310%;
+        }
+    }
+    &:nth-child(5n) {
+        .album-detail-container {
+            margin-left: -420%;
+        }
+    }
+}

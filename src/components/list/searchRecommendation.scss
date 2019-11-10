@@ -1,0 +1,26 @@
+.recommendation-wrapper {
+    margin: auto;
+    width: 90%;
+
+    .recommendation-list {
+        position: relative;
+        list-style-type: none;
+        width: 81%;
+        padding-left: 0;
+        background-color: #505050;
+        color: #8b8b8b;
+
+        .recommendation-results {
+            padding-bottom: 10px;
+            padding: 5px 0 0 10px;
+        }
+        .list-item {
+            width: 90%;
+            height: 30px;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: black;
+            margin-left: 5%;
+        }
+    }
+}

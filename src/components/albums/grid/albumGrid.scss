@@ -1,0 +1,53 @@
+.album-container {
+    width: 90%;
+    margin-left: 5%;
+
+    .search-result-text {
+        color: white;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #8b8b8b;
+    }
+    .albums-text {
+        color: #01ffff;
+    }
+
+    .album-list {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .album {
+            margin: 1%;
+            width: 18%;
+            height: 18%;
+
+            .album-image {
+                width: 100%;
+                height: auto;
+            }
+
+            .album-title {
+                color: #01ffff;
+                width: 100%;
+                height: auto;
+                text-align: center;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+        }
+    }
+
+    .load-more {
+        position: relative;
+        margin-left: 45%;
+        width: 10%;
+        font-size: 2em;
+        line-height: 100%;
+        background-color: #01ffff;
+        color: #000000;
+        border: none;
+    }
+}
